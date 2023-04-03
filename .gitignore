@@ -1,0 +1,38 @@
+# Arquivos gerados pelo IntelliJ
+.idea/
+
+# Arquivos de cache do Kotlin
+*.kotlin_module
+
+# Arquivos de compilação
+bin/
+out/
+
+# Arquivos de configuração do IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Logs
+logs/
+*.log
+
+# Arquivos específicos da plataforma
+.DS_Store
+Thumbs.db
+
+# Dependências do projeto
+*.jar
+*.war
+*.ear
+
+# Arquivos de build
+build/
+classes/
+dist/
+
+# Arquivos de backup
+*~
+*.bak
+*.swp

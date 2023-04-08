@@ -1,15 +1,13 @@
-package Exercicio6
-
-import javax.swing.colorchooser.ColorChooserComponentFactory
+package exercicio6
 
 fun main() {
 
-    var valorHora : Float = 0f
-    var horasTrabalhadas : Int = 0
-    var descontoInss : Float = 0f
-    var salarioBruto : Float =0f
-    var totalDesconto : Float =0f
-    var salarioLiquido : Float =0f
+    var valorHora = 0f
+    var horasTrabalhadas = 0
+    var descontoInss = 0f
+    var salarioBruto : Float
+    var totalDesconto : Float
+    var salarioLiquido : Float
 
     fun dadosProfessor(){
 

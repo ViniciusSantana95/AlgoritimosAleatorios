@@ -1,4 +1,4 @@
-package Exercicio1
+package exercicio1
 
 fun main() {
     var nome = ""
@@ -9,12 +9,12 @@ fun main() {
 
     fun imprimirResultado(): String{
 
-        if(nome == "" || nome == null){
+        if(nome == ""){
             return "Um para você, um para mim."
         }
         return "um para $nome, um para mim"
     }
 
-    receberNomes();
+    receberNomes()
     println(imprimirResultado())
 }

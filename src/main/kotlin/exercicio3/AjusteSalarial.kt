@@ -1,9 +1,9 @@
-package Exercicio3
+package exercicio3
 
 fun main() {
 
-    var salario : Float = 0F
-    var reajuste : Float = 0F
+    var salario = 0F
+    var reajuste = 0F
 
     fun receberDadosSalario(){
         println("Informe o salario mensal do colaborador")
@@ -15,8 +15,7 @@ fun main() {
     }
 
     fun calcularAumento(salario : Float , reajuste: Float) : Float{
-        var salarioReajustado =  salario.plus(salario.times(reajuste))
-        return salarioReajustado
+        return salario.plus(salario.times(reajuste))
     }
 
     receberDadosSalario()

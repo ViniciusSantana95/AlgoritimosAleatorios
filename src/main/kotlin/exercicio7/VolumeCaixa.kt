@@ -1,11 +1,11 @@
-package Exercicio7
+package exercicio7
 
 fun main(){
 
-    var volume : Float = 0f
-    var comprimento : Float =0f
-    var largura : Float =0f
-    var altura : Float = 0f
+    var volume : Float
+    var comprimento : Float
+    var largura : Float
+    var altura : Float
 
     fun calculoVolume(){
 

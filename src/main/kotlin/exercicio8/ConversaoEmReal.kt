@@ -1,9 +1,9 @@
-package Exercicio8
+package exercicio8
 
 fun main() {
-    var reais : Float = 0f
-    var dolar : Float = 0f
-    var quantidadeDolar : Int = 0
+    var reais : Float
+    var dolar : Float
+    var quantidadeDolar : Int
 
     fun conversaoReal(){
         println("Informe a cotação do dólar")

@@ -1,12 +1,12 @@
-package Exercicio13
+package exercicio13
 
 fun main(){
 
-    var votosCandidatoA : Int = 0
-    var votosCandidatoB : Int = 0
-    var votosCandidatoC : Int = 0
-    var votosNulos : Int = 0
-    var votosBrancos : Int = 0
+    var votosCandidatoA = 0
+    var votosCandidatoB = 0
+    var votosCandidatoC  = 0
+    var votosNulos = 0
+    var votosBrancos = 0
     var totalEleitores : Int
     var votosValidos : Int
     var percentualVotosValidos : Float

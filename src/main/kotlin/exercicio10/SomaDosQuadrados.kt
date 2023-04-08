@@ -1,11 +1,10 @@
-package Exercicio11
+package exercicio10
 
 fun main() {
 
     var valor1 : Int
     var valor2 : Int
     var valor3 : Int
-    var soma : Int
     var resultado : Int
 
     fun receberValores(){
@@ -18,9 +17,7 @@ fun main() {
         println("Informe o terceiro valor")
         valor3 = readLine()?.toInt()!!
 
-        soma = valor1.plus(valor2).plus(valor3)
-
-        resultado = soma.times(soma)
+        resultado = (valor1.times(valor1)) + (valor2.times(valor2)) + (valor3.times(valor3))
 
         println("O resultado da soma dos quadrados dos três valores é $resultado")
 

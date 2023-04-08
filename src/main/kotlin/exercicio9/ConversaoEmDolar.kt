@@ -1,12 +1,11 @@
-package Exercicio9
+package exercicio9
 
 fun main() {
-    var reais : Float = 0f
-    var dolar : Float = 0f
-    var conversaoDolar : Float = 0f
-    var quantidadeReais : Int = 0
+    var dolar : Float
+    var conversaoDolar : Float
+    var quantidadeReais : Int
 
-    fun ConversaoDolar(){
+    fun conversaoDolar(){
         println("Informe a cotação do dólar")
         dolar = readLine()?.toFloat()!!
 
@@ -18,5 +17,5 @@ fun main() {
         println("$quantidadeReais convertido em dólares é $conversaoDolar")
     }
 
-    ConversaoDolar()
+    conversaoDolar()
 }

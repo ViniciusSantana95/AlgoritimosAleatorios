@@ -1,8 +1,9 @@
-package Exercicio2
+package exercicio2
 
 fun main() {
     var a = ""
     var b = ""
+    var provisoria : String
     fun lerVariaveis(){
 
         println("Informe um valor para o valor A")
@@ -14,7 +15,6 @@ fun main() {
     }
 
     fun trocarVariaveis() : String {
-        var provisoria = ""
         provisoria = a
         a = b
         b = provisoria

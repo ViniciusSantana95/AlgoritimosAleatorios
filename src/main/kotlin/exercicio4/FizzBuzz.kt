@@ -1,10 +1,8 @@
-package Exercicio4
-
-import kotlin.system.exitProcess
+package exercicio4
 
 fun main() {
-    var num1: Int = 0
-    var num2: Int = 0
+    var num1 = 0
+    var num2 = 0
 
     fun principal() {
         println("Informe o numero inicial do intervalo")
